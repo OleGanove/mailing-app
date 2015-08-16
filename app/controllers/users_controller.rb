@@ -9,6 +9,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
+      UserMailer.welcome_email(@user).deliver_now
       sign_in @user
       flash[:success] = "Welcome to the Mailing App!"
       redirect_to @user
