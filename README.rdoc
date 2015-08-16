@@ -1,6 +1,6 @@
 == Mailer App
 
-In this project a user registration is going to send an email to the user's email. This is an exercise to use Ruby's Mailer Gem.
+This App will automatically send a Welcome Email when a user is registered. This is an exercise to learn how to use rails' built in Mailer gem. 
 
 It is part of The Odin Project - A curriculum to learn web development. 
 
